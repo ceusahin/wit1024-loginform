@@ -75,6 +75,7 @@ export default function Login() {
       });
   };
 
+  // form valdates -> email
   const validateEmail = (email) => {
     return String(email)
       .toLowerCase()
@@ -83,6 +84,7 @@ export default function Login() {
       );
   };
 
+  // form valdates -> password
   const validatePassword = (password) => {
     return password.length > 4 ? true : false;
   };
