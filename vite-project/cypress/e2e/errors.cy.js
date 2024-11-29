@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-// eslint-disable-next-line no-undef
 
 describe("error messages", () => {
   it("wrong email", () => {

@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-// eslint-disable-next-line no-undef
 
 describe("success page test", () => {
   it("when the form is successfully submit, it redirects to the success page.", () => {
